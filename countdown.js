@@ -27,22 +27,7 @@ const Countdown = (props) => {
         };
     });
 
-    // const start = () => {
-    //     let timer = setInterval(() => {
-    //         if (seconds > 0) {
-    //             setSeconds(seconds - 1);
-    //         }
-    //         if (seconds === 0) {
-    //             if (minutes === 0) {
-    //                 clearInterval(myInterval)
-    //             } else {
-    //                 setMinutes(minutes - 1);
-    //                 setSeconds(59);
-    //             }
-    //         } 
-    //     }, 1000) 
-    //     clearInterval(timer); 
-    // }
+    
     const reset = () => {
         setMinutes(minutes);
         setSeconds(59);
